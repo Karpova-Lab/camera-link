@@ -349,9 +349,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power",
-        "nets": [
-          "/5VDC"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5588,
@@ -407,7 +405,7 @@
   },
   "sheets": [
     [
-      "89540228-3a7b-4296-8e46-d24a046d6edd",
+      "24a8cacc-eed4-4321-baf2-839f60929694",
       ""
     ]
   ],
