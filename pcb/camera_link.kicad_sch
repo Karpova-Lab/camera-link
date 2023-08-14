@@ -707,6 +707,15 @@
     (uuid fc273d11-61ba-46be-808f-48a6c2259775)
   )
 
+  (text "pre-crimped leads" (at 127 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://www.digikey.com/en/products/detail/jst-sales-america-inc/ASSHLSSHL28K203/9924242?s=N4IgjCBcoOw1oDGUBmBDANgZwKYBoQB7KAbRACYAOcgBgFYBmEAXQIAcAXKEAZQ4CcAlgDsA5iAC+BGJQQhkkdNnxFS4AGwM6MdS3ZdIvASPFSQDMPGjzUmXAWKQyAFhrOds1iE7c+QsZIEALQQ1gpK9qpOIM50dCxmQc5y4XYqjmRg6mD0CRISQA"))
+    (uuid 0be758b5-6bf4-4a80-9aaf-3a9383aff33e)
+  )
+  (text "plug" (at 127 86.36 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom) (href "https://www.digikey.com/en/products/detail/jst-sales-america-inc/NSHR-09V-S/3313624"))
+    (uuid 72ec2302-e619-4c40-9573-23dd603e3dd4)
+  )
+
   (label "SYNC" (at 140.97 64.77 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 1a432e7d-d976-4b2d-8f65-7b0f083caf1e)
@@ -743,6 +752,12 @@
     (property "Datasheet" "https://www.digikey.com/en/products/detail/ohmite/WNE5R0FET/3114558?s=N4IgTCBcDaIOoDkCiBWATgBgGYFMAuAxniALoC%2BQA" (at 67.945 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "5 watt resistor" (at 67.945 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 67.945 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid dbbe59bc-f038-4015-ba42-85dbae538c1d))
     (pin "2" (uuid d42ed449-801b-4761-beea-9709e2ba9811))
     (instances
@@ -769,6 +784,9 @@
     (property "Datasheet" "" (at 129.54 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "DNP" "1" (at 129.54 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 3289f44b-8390-4f11-a67e-6d4c316bce2e))
     (instances
       (project "camera_link"
@@ -782,7 +800,7 @@
   (symbol (lib_id "Device:LED") (at 76.835 46.355 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4bf590eb-23b9-4fef-ab36-cac8b5641094)
-    (property "Reference" "D2" (at 78.4225 41.3639 0)
+    (property "Reference" "D1" (at 78.4225 41.3639 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LST1-01F09-IR01-00" (at 78.4225 43.1261 0)
@@ -794,12 +812,18 @@
     (property "Datasheet" "https://www.digikey.com/en/products/detail/new-energy/LST1-01F09-IR01-00/9445943?s=N4IgTCBcDaIIwDYDsYC0c4FYAMIC6AvkA" (at 76.835 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "850 nm LED" (at 76.835 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 76.835 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 50b898ee-70af-4e44-8f30-0a0e77fed609))
     (pin "2" (uuid d4507810-2af6-4494-aa04-6c15232a1247))
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
-          (reference "D2") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -820,6 +844,9 @@
     (property "Datasheet" "" (at 132.08 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "DNP" "1" (at 132.08 52.07 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6b4b0414-e1e7-4378-a4d1-348ebe98fe63))
     (instances
       (project "camera_link"
@@ -833,16 +860,22 @@
   (symbol (lib_id "Connector:Conn_01x09_Female") (at 151.13 54.61 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6cbf0c05-ebea-4328-9fac-a44b37fb94d7)
-    (property "Reference" "J2" (at 150.495 41.1607 0)
+    (property "Reference" "J1" (at 150.495 41.1607 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Conn_01x09_Female" (at 150.495 42.9229 0)
+    (property "Value" "BM09B-NSHSS-TBT" (at 150.495 42.9229 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "asl_footprints:JST_NSH_1x09_VERTICAL" (at 151.13 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/BM09B-NSHSS-TBT-LF-SN/3313615" (at 151.13 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "9-pin socket" (at 151.13 54.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 151.13 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 15d9e71c-1c59-4831-8420-dab161bd4050))
@@ -857,7 +890,7 @@
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
-          (reference "J2") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -878,6 +911,9 @@
     (property "Datasheet" "" (at 129.54 52.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "DNP" "1" (at 129.54 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1f68888d-d1ba-4001-b22c-6cdb9eec5063))
     (instances
       (project "camera_link"
@@ -891,7 +927,7 @@
   (symbol (lib_id "Device:LED") (at 85.725 46.355 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8e244ab3-541c-49de-a487-35adfae7118b)
-    (property "Reference" "D3" (at 87.3125 41.3639 0)
+    (property "Reference" "D2" (at 87.3125 41.3639 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LST1-01F09-IR01-00" (at 87.3125 43.1261 0)
@@ -903,12 +939,18 @@
     (property "Datasheet" "https://www.digikey.com/en/products/detail/new-energy/LST1-01F09-IR01-00/9445943?s=N4IgTCBcDaIIwDYDsYC0c4FYAMIC6AvkA" (at 85.725 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "850 nm LED" (at 85.725 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 85.725 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 79ce2981-7593-4d16-aab6-1c97146d7d31))
     (pin "2" (uuid c982c9a9-a411-4536-88d9-d4419d727dfb))
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
-          (reference "D3") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -938,6 +980,9 @@
     (property "Sim.Params" "type=H model=\"24882\"" (at -55.245 173.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "DNP" "" (at 81.915 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
@@ -960,6 +1005,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 135.89 64.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "1" (at 140.97 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d1e46630-6289-4482-abab-3e0be00f6bb2))
@@ -996,6 +1044,9 @@
     (property "Sim.Params" "type=H model=\"24882\"" (at -29.21 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "DNP" "" (at 81.915 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
@@ -1008,7 +1059,7 @@
   (symbol (lib_id "power:GND") (at 64.77 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd9ad4c0-5125-4e64-a7c9-56701d9d7e54)
-    (property "Reference" "#PWR0101" (at 64.77 67.945 0)
+    (property "Reference" "#PWR01" (at 64.77 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 65.7305 0)
@@ -1024,7 +1075,7 @@
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -1033,7 +1084,7 @@
   (symbol (lib_id "power:GND") (at 132.715 61.595 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dcec08c0-67c9-4017-a90e-233bcb0f44cf)
-    (property "Reference" "#PWR0103" (at 132.715 67.945 0)
+    (property "Reference" "#PWR02" (at 132.715 67.945 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.715 65.6511 0)
@@ -1049,7 +1100,7 @@
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1058,7 +1109,7 @@
   (symbol (lib_id "Device:LED") (at 95.25 46.355 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5d0caad-e79f-4480-ac60-7fa9ff64df39)
-    (property "Reference" "D4" (at 96.8375 41.3639 0)
+    (property "Reference" "D3" (at 96.8375 41.3639 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LST1-01F09-IR01-00" (at 96.8375 43.1261 0)
@@ -1070,12 +1121,18 @@
     (property "Datasheet" "https://www.digikey.com/en/products/detail/new-energy/LST1-01F09-IR01-00/9445943?s=N4IgTCBcDaIIwDYDsYC0c4FYAMIC6AvkA" (at 95.25 46.355 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "850 nm LED" (at 95.25 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 95.25 46.355 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 058e6075-7109-4bac-bfa7-198f26fc79c7))
     (pin "2" (uuid 245cbff2-1878-49b0-a7bb-35e65fb5ae06))
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1084,7 +1141,7 @@
   (symbol (lib_name "RJ45_pyControl_1") (lib_id "asl_symbols:RJ45_pyControl") (at 42.545 55.245 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f2c59871-d7ed-465c-816a-6429c15d6b11)
-    (property "Reference" "J1" (at 41.91 42.2529 0)
+    (property "Reference" "J2" (at 41.91 42.2529 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "E5J88-00LJG2-L" (at 41.91 44.0151 0)
@@ -1094,6 +1151,12 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.digikey.com/en/products/detail/pulse-electronics/E5J88-00LJG2-L/1785312?s=N4IgTCBcDaIKxwMwFoxgGwBZkDkAiIAugL5A" (at 40.005 55.88 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RJ45 jack" (at 42.545 55.245 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "DNP" "" (at 42.545 55.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dddc03e1-d79f-4bd8-a7c4-8898a7dcac34))
@@ -1107,7 +1170,7 @@
     (instances
       (project "camera_link"
         (path "/99c0100e-3cd8-4e53-82df-0857c6b5e0d5"
-          (reference "J1") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
