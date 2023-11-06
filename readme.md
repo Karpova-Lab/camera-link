@@ -23,7 +23,7 @@ Additionally, the PCB has 3 controllable high power IR LEDs that are used for th
 
 ## GPIO cable
 - [plug](https://www.digikey.com/en/products/detail/jst-sales-america-inc/NSHR-09V-S/3313624)
-- [8" pre-crimpled leades](https://www.digikey.com/en/products/detail/jst-sales-america-inc/ASSHLSSHL28K203/9924242?s=N4IgjCBcoOw1oDGUBmBDANgZwKYBoQB7KAbRACYAOcgBgFYBmEAXQIAcAXKEAZQ4CcAlgDsA5iAC+BGJQQhkkdNnxFS4AGwM6MdS3ZdIvASPFSQDMPGjzUmXAWKQyAFhrOds1iE7c+QsZIEALQQ1gpK9qpOIM50dCxmQc5y4XYqjmRg6mD0CRISQA)
+- [8" pre-crimped wires](https://www.digikey.com/en/products/detail/jst-sales-america-inc/ASSHLSSHL28K203/9924242?s=N4IgjCBcoOw1oDGUBmBDANgZwKYBoQB7KAbRACYAOcgBgFYBmEAXQIAcAXKEAZQ4CcAlgDsA5iAC+BGJQQhkkdNnxFS4AGwM6MdS3ZdIvASPFSQDMPGjzUmXAWKQyAFhrOds1iE7c+QsZIEALQQ1gpK9qpOIM50dCxmQc5y4XYqjmRg6mD0CRISQA)
 ## Camera
 - [Technical Rererence](docs//CM3-U3-Technical-Reference.pdf)
 - [Lens](https://www.flir.com/products/computar-a4z2812cs/)
